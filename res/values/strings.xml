@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    
+    <string name="app_name">Update</string>
+    <string name="main_title">FW Update</string>
+    <string name="version" translatable="false">(V 1.0_05202011)</string>
+    <string name="next">Next</string>
+    <string name="cancel">Cancel</string>
+    <string name="exit">Exit</string>
+    <string name="power_tip">Make sure that your device has at least 30% battery power or the AC adapter is plugged in. Tap Next. The device will reboot and perform the update now. To perform the update later, tap Exit. Refer to the User Guide for instructions to manually start the update later.</string>
+    <string name="no_upgrade_file">No find update.zip.</string>
+    <string name="no_patch_file">No find patch.zip.</string>
+    <string name="mothed_tip">Select update method.</string>
+    <string name="patch">Patch</string>
+    <string name="upgrade">Upgrade</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+</resources>

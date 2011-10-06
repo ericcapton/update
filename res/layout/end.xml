@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/end"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/update_bk">
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40px"
+        android:layout_marginRight="40px"
+        android:layout_marginTop="60px"
+        android:orientation="vertical">
+
+        <TextView  
+            android:id="@+id/text" 
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content"
+            android:textColor="@color/white_color"
+            android:textSize="20dp"
+            android:text="@string/power_tip"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="80px">
+
+        <Button 
+            android:id="@+id/yes" 
+            android:layout_width="100dp" 
+            android:layout_height="wrap_content" 
+            android:background="@drawable/button"
+            android:text="@string/next"
+            android:textColor="@color/white_color"
+            android:textSize="20dp"/> 
+        <Button 
+            android:id="@+id/no" 
+            android:layout_width="100dp" 
+            android:layout_height="wrap_content" 
+            android:background="@drawable/button"
+            android:text="@string/exit"
+            android:textColor="@color/white_color"
+            android:textSize="20dp"
+            android:layout_marginLeft="20px"/> 
+    </LinearLayout>
+</LinearLayout>
